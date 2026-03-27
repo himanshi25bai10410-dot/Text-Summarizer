@@ -48,3 +48,24 @@ pip install -r requirements.txt
 ▶️ Usage
 Run the program:
 python main.py
+
+📂 Project Structure
+Text-Summarizer/
+│── main.py
+│── requirements.txt
+│── README.md
+
+⚠️ Challenges Faced
+Understanding NLP concepts
+Extracting important sentences accurately
+Handling large text input
+📈 Future Improvements
+Add graphical user interface (GUI) using Streamlit
+Improve summarization accuracy with advanced NLP models
+Support multiple languages
+Allow user to control summary length
+
+
+## 👩‍💻 Author
+Himanshi Saxena  
+B.Tech AI & ML
