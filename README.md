@@ -77,3 +77,7 @@ python summarizer.py --text "..." --verbose
 - Works best on **100+ word** inputs.
 - For very short texts, use `--sentences 1` or `2`.
 - Pipe from a `.txt` file: `cat article.txt | python summarizer.py -s 4 -a lexrank`
+
+# Author
+Himanshi Saxena
+25BAI10410
