@@ -15,6 +15,7 @@ The goal of this project is to reduce reading time and make it easier to grasp k
 - Generates concise summaries  
 - Uses NLP techniques for processing  
 - Easy-to-use command-line interface  
+- Interactive browser-based UI using Streamlit  
 - Saves time and improves readability  
 
 ---
@@ -23,6 +24,7 @@ The goal of this project is to reduce reading time and make it easier to grasp k
 - Python  
 - Natural Language Processing (NLP)  
 - NLTK library  
+- Streamlit  
 
 ---
 
@@ -36,6 +38,8 @@ Required Python libraries:
 
 ```bash
 nltk
+streamlit
+
 ⚙️ Installation
 1.Clone the repository:
 git clone https://github.com/your-username/Text-Summarizer.git
@@ -43,27 +47,40 @@ git clone https://github.com/your-username/Text-Summarizer.git
 cd Text-Summarizer
 3.Install required Python libraries:
 pip install -r requirements.txt
-
+If requirements.txt does not exist, install manually:
+pip install nltk streamlit
 
 ▶️ Usage
-Run the program:
+Option 1: Command-line
+Run the program in terminal:
 python main.py
+
+Option 2: Streamlit UI (Recommended)
+Run the UI in browser:
+streamlit run app.py
+-Enter your text in the text area
+-Use the slider to select number of sentences in the summary
+-Click Summarize to see the output
 
 📂 Project Structure
 Text-Summarizer/
 │── main.py
+│── app.py
 │── requirements.txt
 │── README.md
 
 ⚠️ Challenges Faced
-Understanding NLP concepts
-Extracting important sentences accurately
-Handling large text input
+-Understanding NLP concepts
+-Extracting important sentences accurately
+-Handling large text input
+-Managing special characters like &, quotes, etc.
+
 📈 Future Improvements
-Add graphical user interface (GUI) using Streamlit
-Improve summarization accuracy with advanced NLP models
-Support multiple languages
-Allow user to control summary length
+-Add advanced NLP models for better summarization accuracy
+-Support multiple languages
+-Allow user to control summary length
+-Improve UI with additional features like file upload
+-Make a web-hosted version for public use
 
 
 ## 👩‍💻 Author
